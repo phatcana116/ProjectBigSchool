@@ -45,7 +45,7 @@
                             method: "DELETE"
                         })
                             .done(function () {
-                                link.parent("li").fadeOut(function () {
+                                link.parents("li").fadeOut(function () {
                                     $(this).remove();
                                 });
                             })
